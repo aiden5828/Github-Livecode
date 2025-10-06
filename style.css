@@ -1,0 +1,16 @@
+p {
+    color: green;
+    text-decoration: underline;
+}
+
+li {
+    color: pink;
+}
+
+.bannerlord {
+    font-weight: bold;
+}
+
+a {
+    color: orange;
+}
