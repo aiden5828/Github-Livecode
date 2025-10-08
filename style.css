@@ -1,4 +1,9 @@
 p {
+    /* 
+    Green 
+    and 
+    Underlined
+    */
     color: green;
     text-decoration: underline;
 }
@@ -7,10 +12,19 @@ li {
     color: pink;
 }
 
-.bannerlord {
+.bold {
     font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 a {
     color: orange;
+}
+
+#blue {
+    font-weight: bold;
+    color: blue;
 }
