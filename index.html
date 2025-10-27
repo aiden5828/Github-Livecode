@@ -45,15 +45,30 @@
 
 <h2>Babies first form</h2>
     <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post">
-        <label for="yourCollege">College Name:</label>
-        <input type="text" id="yourCollege" name="college" placeholder="ABC">
-        <br>
-        <!-- <label for="yourname">Your Name:</label>
+        <div>
+            <label for="yourCollege">College Name:</label>
+            <input type="text" id="yourCollege" name="college" placeholder="ABC" required>
+        </div>
+
+            <!-- <label for="yourname">Your Name:</label>
         <input type="text" id="yourname" name="name" placeholder="ABC">
         <br> -->
-        <input id="associateOption" type="radio" name="degreeType" value="AS"> <label for="associateOption">Associates</label>
-        <input id="bachelorOption" type="radio" name="degreeType" value="BS"> <label for="bachelorOption">Bachelors</label>
-        <br>
+
+        <div>
+            <input id="associateOption" type="radio" name="degreeType" value="AS"> <label for="associateOption">Associates</label>
+            <input id="bachelorOption" type="radio" name="degreeType" value="BS"> <label for="bachelorOption">Bachelors</label>
+        </div>
+
+        <div>
+            <label for="yearSelector">Class Year</label>
+            <select id="yearSelector" name="year">
+                <option value="Fr">Freshman</option>
+                <option value="So">Sophomore</option>
+                <option value="Ju">Junior</option>
+                <option value="Se">Senior</option>
+            </select>
+        </div>
+        
         <button type="submit">SUBMIT</button>
     </form>
 </body>
